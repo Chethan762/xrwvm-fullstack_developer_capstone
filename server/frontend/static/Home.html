@@ -7,9 +7,8 @@
 <script>
 
 const logout = async (e) => {
-//Include the code for logout here.
-let logout_url = window.location.origin+"/djangoapp/logout";
-  const res = await fetch(logout_url, {
+    let logout_url = window.location.origin+"/djangoapp/logout";
+    const res = await fetch(logout_url, {
     method: "GET",
   });
 
